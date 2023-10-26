@@ -1,0 +1,70 @@
+.overlay {
+  background-image: url(./leaves-free-img.png);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+  background-size: 28% auto;
+  background-position: bottom right;
+}
+
+.banner {
+  background-image: linear-gradient(160deg, #FFFFFF 0%, #f8f6f3 100%);
+  padding: 120px 0;
+  position: relative;
+}
+
+.banner_hero {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner_hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.banner_hero_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.banner_hero_right_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.banner_hero_right_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .banner_hero {
+    flex-direction: row;
+  }
+
+  .banner_hero_right {
+    padding-left: 80px;
+  }
+
+  h1 {
+    font-size: 3.25rem;
+  }
+}
